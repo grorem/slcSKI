@@ -897,32 +897,33 @@ width:100%;
   .button{display:block; margin:10px 0 10px;}
 
 
-}
+  .leftmost{display:none;}
 
 
-.leftmost{display:none;}
+  .navHolder{display:none;}
 
 
-.navHolder{display:none;}
+  .subdoobler{
 
 
-.subdoobler{margin-left:25px;
+    margin-left:25px;
+
+  }
 
 
+  .subdoobler p{
 
-}
+      padding:8px;
+      width:90%;
 
-
-.subdoobler p{
-
-    padding:8px;
-    width:90%;
-
-}
+  }
 
 
-.doobler{
+  .doobler{
 
-  width:95%;
+    width:95%;
+
+  }
+
 
 }
