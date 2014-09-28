@@ -906,9 +906,17 @@ width:100%;
 .navHolder{display:none;}
 
 
-.subdoobler{margin-left:15px;
+.subdoobler{margin-left:25px;
 
 
+
+}
+
+
+.subdoobler p{
+
+    padding:8px;
+    width:90%;
 
 }
 
