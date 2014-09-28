@@ -883,14 +883,14 @@ opacity:.8;
   h6{font-size:26px;}
 
   .signupforms{
-
-    margin-left:-25px;
+    width:100%;
+    margin-left:-5px;
 
   }
 
   .submit{
-
-    margin-left:-25px;
+width:100%;
+    margin-left:-5px;
 
   }
 
@@ -904,3 +904,6 @@ opacity:.8;
 
 
 .navHolder{display:none;}
+
+
+.subdoobler{margin-left:20px;}
