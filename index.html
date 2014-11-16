@@ -509,7 +509,7 @@
 
 
 
-                  
+
 
 
                     <div class="left col-md-12">
@@ -627,16 +627,32 @@
 
 <br><br>
 
+<hr>
+
 <h5>Have a question?</h5>
 <span class="dooblerHeader">Use this form, and we'll get back to ya</span><br>
 
- <form>
 
 
-<textarea class="signupforms"  id="Field4" name="message" class="field textarea medium" placeholder="What would you like to ask us?" spellcheck="true" rows="5" cols="22" tabindex="4" onkeyup="handleInput(this); " onchange="handleInput(this);"></textarea>
+<form method="post" action="contact.php">
+
+  <input class="blonk consultForms" id="Field1" name="name" type="text" class="field text large" placeholder="Name" maxlength="255" tabindex="1" onkeyup="handleInput(this); " onchange="handleInput(this);">
+ <br>
+
+<input class="blonk consultForms"  id="Field3" name="email" type="text" class="field text large" placeholder="E-Mail" maxlength="255" tabindex="1" onkeyup="handleInput(this); " onchange="handleInput(this);">
+
+ <br>
+
+ <input class="blonk contactForms"  id="Field5" name="username" type="text" class="field text large" placeholder="email" maxlength="255" tabindex="1" onkeyup="handleInput(this); " onchange="handleInput(this);">
+
+    <textarea class="signupforms"  id="Field4" name="message" class="field textarea medium" placeholder="What would you like to ask us?" spellcheck="true" rows="5" cols="22" tabindex="4" onkeyup="handleInput(this); " onchange="handleInput(this);"></textarea>
 <br>
+
 <input id="submit" name="submit" class="btTxt submit" type="submit" value="Submit Question" onmousedown="doSubmitEvents();" tabindex="41">
-</form></center>
+</form>
+
+
+</center>
 
 
 

@@ -6,11 +6,11 @@
 
     $username = $_POST['username'];
 
-    $from = 'From: Rorem Law Website Contact Form';
+    $from = 'From: UCG-SLC-SKI website';
 
 
-    $to = 'mark.rorem@gmail.com';
-    $subject = 'Rorem Law Website Contact Form Submission';
+    $to = 'gmrorem@gmail.com';
+    $subject = 'Question from UCG-SLC-SKI website';
 
     $body = "From: $name\n\n E-Mail: $email\n\n Message:\n\n $message";
 
@@ -26,7 +26,7 @@
 
     if ($_POST['submit'])  {
 
-    if (( mail ($to, $subject, $body, $from)) && ($username == "")) {
+    if (( mail ($body, $from)) && ($to, $subject, $username == "")) {
         echo '<p>Your message has been sent!</p>';
     } else {
         echo '<p>Something went wrong, go back and try again!</p>';
