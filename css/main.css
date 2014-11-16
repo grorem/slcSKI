@@ -91,6 +91,7 @@ padding-left:25px;
   padding:5px 15px 5px;
   color:white;
   background:#03B861;
+  max-width:500px;
 
   -moz-border-radius: 8px;
    -webkit-border-radius: 8px;
@@ -104,6 +105,43 @@ padding-left:25px;
 
 }
 
+.signup{
+  margin-right:15px;
+  padding:5px 15px 5px;
+  color:white;
+  background:#03B861;
+  max-width:500px;
+  font-size:24px;
+
+  -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -khtml-border-radius: 8px;
+   border-radius: 8px;
+
+-webkit-transition: background-color 500ms, color 500ms;
+ transition: background-color 500ms, color 500ms;
+
+
+
+}
+
+.greyedbutton{
+  margin-right:15px;
+  padding:5px 15px 5px;
+  color:white;
+  background:gray;
+  max-width:500px;
+
+  -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -khtml-border-radius: 8px;
+   border-radius: 8px;
+
+
+
+
+}
+
 
 .active{
 
@@ -112,6 +150,30 @@ padding-left:25px;
 }
 
 .button:hover{
+
+  color:#03B861;
+  background:#24587A;
+
+-webkit-transition: background-color 500ms, color 500ms;
+ transition: background-color 500ms, color 500ms;
+
+
+}
+
+
+.signmeup{
+  color:white;
+  padding:15px;
+  background: #24587A;
+  -moz-border-radius: 8px;
+   -webkit-border-radius: 8px;
+   -khtml-border-radius: 8px;
+   border-radius: 8px;
+
+}
+
+
+.signup:hover{
 
   color:#03B861;
   background:#24587A;
@@ -297,7 +359,7 @@ h6{
 
 .header img{
 
-    max-width:110px;
+    max-width:70px;
     margin-bottom:25px;
 
 }
@@ -403,7 +465,7 @@ height:100%;
 padding:8px;
 color:white;
 margin:auto;
-border:solid .08em white;
+
 
 margin-top:10px;
 
@@ -594,7 +656,7 @@ width:100%;
 
 
 .leftmost img{
-  margin-bottom:125px;
+  margin-bottom:405px;
   max-width:70px;
   margin-left:-15px;
 
@@ -895,6 +957,7 @@ width:100%;
   }
 
   .button{display:block; margin:10px 0 10px;}
+  .greyedbutton{display:block; margin:10px 0 10px;}
 
 
   .leftmost{display:none;}
